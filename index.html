@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="Heading">Book List</h3>
+        <p class="error">Fill the input field</p>
+        <p class="success">The book added to the list</p>
+        <form id="Form">
+            <div class="input-field">
+                <label for="Title">Title</label>
+                <input type="text" id="Title">
+            </div>
+            <div class="input-field">
+                <label for="Author">Author</label>
+                <input type="text" id="Author">
+            </div>
+            <div class="input-field">
+                <label for="Year">Year</label>
+                <input type="text" id="Year">
+            </div>
+            <div class="input-field">
+                <input type="submit" id="Submit" value="Add Book">
+            </div>
+        </form>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                </tr>
+                <tbody id="TableBody"></tbody>
+            </thead>
+        </table>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
