@@ -1,15 +1,9 @@
 a{text-decoration: none;}
-.Heading {
-font-size: 30px;
-text-align: center;
-color: #e8dddd;
-background: crimson;
-border-radius: 3px;
-padding: 5px;
-}
+.Heading {font-size: 30px;text-align: center;color: #e8dddd;background: crimson;border-radius: 3px;padding: 5px;}
 input{width: 100%;}
-.error, .success{ color: white; text-align: center; padding: 5px; font-weight: 600; display: none;}
+.error, .success{ color: white; text-align: center; padding: 3px; font-weight: 300; display: none;}
 .error{background: red;}
 .success{background: green;}
 .fa-trash-alt{color: red;}
 .fa-edit{color: green; margin-right: 5px;}
+.remove_effect {transition: .3s ease-out;transform: rotateZ(10deg) translateY(90px); opacity: 0;}
