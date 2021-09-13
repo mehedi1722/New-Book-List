@@ -28,7 +28,10 @@ class UI extends Book{
                 <td>${BookInfo.Year}</td>
                 <td>
                     <a href="#">
-                    <i class="fas fa-edit"></i> <i id="deleteBtn" class="fas fa-trash-alt"></i>
+                        <i class="fas fa-edit"></i> 
+                    </a>
+                    <a href="#">
+                        <i id="deleteBtn" class="fas fa-trash-alt"></i>
                     </a>
                 </td>
             </tr>
